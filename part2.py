@@ -70,9 +70,9 @@ for button in buttons:
 
 driver.find_element_by_css_selector('button.btn.btn-primary').click()
 
-# submit covid waiver
+# checkout
 
-# driver.find_element_by_id('checkoutButton').click()
+driver.find_element_by_id('checkoutButton').click()
 
 
 # https://warrior.uwaterloo.ca/CustomPromptsAddon/GetCustomPrompts?relatedRegistrationId=f1edc478-6a13-42d0-ac50-26dfcf5273d0&productType=00000000-0000-0000-0000-000000003502
